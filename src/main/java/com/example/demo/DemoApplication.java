@@ -16,7 +16,7 @@ public class DemoApplication {
 		}
 		else
 		{
-			System.out.println("String exists", +exampleString);
+			System.out.println("String exists", exampleString);
 		}
 	}
 
