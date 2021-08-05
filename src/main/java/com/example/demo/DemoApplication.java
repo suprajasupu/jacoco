@@ -10,9 +10,13 @@ public class DemoApplication {
 		SpringApplication.run(DemoApplication.class, args);
 		String exampleString = "This is just a sample string";
                 int stringLength = exampleString.length();
-		if (stringLength > 0)
+		if (stringLength == 0)
 		{
-			System.out.println("String exists");
+			System.out.println("String not exists");
+		}
+		else
+		{
+			System.out.println("String exists", +exampleString);
 		}
 	}
 
